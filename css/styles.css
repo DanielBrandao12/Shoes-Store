@@ -30,7 +30,8 @@ header {
   text-decoration: none;
   color: #777777;
 }
-.container-banner{
+
+.container-banner {
 
   width: 100%;
   height: 260px;
@@ -99,15 +100,17 @@ header {
 
 
 }
-.oferta{
+
+.oferta {
   display: flex;
-   height: 200px;
-  
- justify-content: center;
- 
-   
+  height: 200px;
+
+  justify-content: center;
+
+
 }
-.oferta h1{
+
+.oferta h1 {
 
   font-family: sans-serif;
   font-size: 44px;
@@ -115,39 +118,72 @@ header {
   line-height: 60px;
   letter-spacing: 0em;
 
-  
+
   align-self: flex-end;
- 
- 
- color: white;
+
+
+  color: white;
 }
-.container-itens{
+
+.container-itens {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 650px;
   background: #C2185B;
- 
-  
- 
+
+
+
 }
-.itens{
+
+.itens {
 
   display: flex;
- height:100vh;
+ flex-wrap: wrap;
+  height: 100vh;
   margin-top: 10px;
   justify-content: center;
 
-  
-  
-  
-  
+
+
+
+
 }
-.iten{
+
+.iten {
   width: 260px;
   height: 388px;
   align-self: center;
   margin: 20px;
   background: white;
-  
+
+}
+
+.banner-iten1{
+  height: 300px;
+width: 260px;
+
+background: url("../images/shoes1.png");
+
+}
+.banner-iten2{
+  height: 300px;
+width: 260px;
+
+background: url("../images/shoes2.png");
+
+}
+.banner-iten3{
+  height: 300px;
+width: 260px;
+
+background: url("../images/shoes3.png");
+
+}
+.banner-iten4{
+  height: 300px;
+width: 260px;
+
+background: url("../images/shoes4.png");
+
 }
