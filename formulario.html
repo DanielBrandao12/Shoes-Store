@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste formulário</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/form.css" />
+</head>
+
+<body>
+    <header>
+        <div>
+          <img src="images/logo-color.png" alt="Logo da shoes store" />
+        </div>
+        <nav>
+          <ul class="lista-navegacao">
+            <li><a href="#">Todos os produtos</a></li>
+            <li><a href="#">Coleções</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+  
+        <section class="formulario">
+            
+            <form action="#" method="GET" class="form">
+                <h1>Faça parte do nosso time</h1>
+                <label for="input-name">Nome:</label>
+                <input id="input-name" type="text" name="name" required />
+
+                <label for="input-email">Email:</label>
+                <input type="email" name="email" id="input-email" required>
+
+                <label for="input-telefone">Telefone:</label>
+                <input type="text" name="senha" id="input-telefone" max="11" required>
+                
+                <h4>Departamento</h4>                
+                <select name="departamento" id="input-departamento">
+                    <option value="rh">RH</option>
+                    <option value="compras">Compras</option>
+                </select>
+
+                <h4>Disponibilidade</h4>
+                <div class="checkbox">
+                    <div>
+
+                        <input type="checkbox" name="integral" id="checkbox-integral" class="check-itens">
+                        <label for="checkbox-integral">Integral (8h)</label>
+                    </div>
+<div>
+
+    <input type="checkbox" name="meioperiodo" id="checkbox-meioperiodo" class="check-itens">
+    <label for="checkbox-meioperiodo">Meio período (4h)</label>
+</div>
+<div>
+
+    <input type="checkbox" name="freelancer" id="checkbox-freelancer" class="check-itens">
+    <label for="checkbox-freelancer">Freelancer</label>
+</div>
+
+                </div>
+
+                <h4>Qual a melhor forma para entrarmos em contato com você?</h4>
+
+                <div class="radio">
+                    <input type="radio" name="Email" id="radio-email">
+                    <label for="radio-email">Email</label>
+
+                    <input type="radio" name="ligacoes" id="radio-ligacao">
+                    <label for="radio-ligacao">Ligação</label>
+
+                    <input type="radio" name="whatsapp" id="radio-whatsapp">
+                    <label for="radio-whatsapp">WhatsApp</label>
+                </div>
+
+                <label for="">Mensagem</label>
+                <textarea name="Mensagem" id="textarea-msn" cols="30" rows="10"></textarea>
+
+                <div class="upload">
+                    <label for="curriculo">Curriculo</label>
+                    <button type="submit" id="btn-upload">upload</button>
+                </div>
+
+                <button type="submit" id="btn-cadastrar">Cadastrar</button>
+                
+            </form>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
