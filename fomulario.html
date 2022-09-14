@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulário</title>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div>
+          <img src="images/logo-color.png" alt="Logo da shoes store" />
+        </div>
+        <nav>
+          <ul class="lista-navegacao">
+            <li><a href="#">Todos os produtos</a></li>
+            <li><a href="#">Coleções</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="container-form">
+        <form action="#" method="POST">
+            <label for="input-name">Nome:</label>
+            <input type="text" name="name" id="input-name" required>
+    
+            <label for="input-email">Email:</label>
+            <input type="email" name="email" id="input-email" required>
+    
+            <label for="input-telefone">Senha:</label>
+            <input type="text" name="telefone" id="input-telefone" required>
+
+           <select name="departamento" id="" >
+            <option value="rh">RH</option>
+            <option value="compras">Compras</option>
+           </select>
+           <div>
+
+               <label for="input-disponibilidade">Disponibilidade</label>
+    
+               <input type="checkbox" name="integral" id="checkbox-integral">
+               <label for="checkbox-integral">Integral (8h)</label>
+             
+               <input type="checkbox" name="meioPeriodo" id="checkbox-MeioPeriodo">
+               <label for="checkbox-MeioPeriodo">Meio Periodo (4h)</label>
+            
+               <input type="checkbox" name="freelancer" id="checkbox-freelancer">
+               <label for="checkbox-freelancer">Freelancer</label>  
+           </div>
+
+            <button type="submit">Cadastrar</button>
+           <button type=""></button>
+        </form>
+      </section>
+
+</body>
+</html>
