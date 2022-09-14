@@ -73,3 +73,25 @@ h1 {
     width: 350px;
 
 }
+
+@media(min-width: 769px) {
+    .hamburguer-menu {
+      display: none;
+    }
+  
+    .navbar {
+      display: block;
+    }
+  }
+  
+  
+  @media(min-width: 480px) {
+    .hamburguer-menu {
+      display: none;
+    }
+  
+    .navbar {
+      display: block;
+    }
+  }
+  
